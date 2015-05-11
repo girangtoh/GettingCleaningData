@@ -34,6 +34,8 @@ This repo contains 3 files.
 
 Before running the script, it is assumed that the "UCI HAR Dataset" files has been unzipped and is saved under the root directory.
 
+Type in source("run_analysis.R") in your root directory to run the script.                   					
+
 The end result is a tidy data set written to a text file called "tidy_data.txt". 
 
 To see the tidy data set, after running the script, type in tidy <- read.table("./tidy_data.txt", header = TRUE). 
