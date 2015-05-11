@@ -1,8 +1,8 @@
 Code Book
 
-IDs
-subject - The index of the volunteers ( 1-30)
-activity - Activity that volunteers were doing when data was recorded                                                             
+IDs                                                                                                                     
+subject - The index of the volunteers ( 1-30)                                                                           
+activity - Activity that volunteers were doing when data was recorded                                                                                                          
           (6 types: Walking, Walking Downstairs, Walking Upstairs, Sitting, Standing, Laying)                                     
           
 A total of 66 columns are extracted because only those fields with mean() or std() are extracted.
