@@ -28,14 +28,18 @@ Good luck!
 
 This repo contains 3 files.
 
-1) run_analysis.R
-2) Readme.md
-3) Codebook
+1) run_analysis.R        															
+2) Readme.md															
+3) Codebook														
 
-Before running the script, it is assumed that the "UCI HAR Dataset" files has been unzipped and is saved under the root directory. 
+Before running the script, it is assumed that the "UCI HAR Dataset" files has been unzipped and is saved under the root directory.
+
 The end result is a tidy data set written to a text file called "tidy_data.txt". 
+
 To see the tidy data set, after running the script, type in tidy <- read.table("./tidy_data.txt", header = TRUE). 
+
 Type in View(tidy) to see the contents.
+
 
 The Codebook describes the variables in the tidy_data.txt created, a total of 180 rows and 68 columns.
 
